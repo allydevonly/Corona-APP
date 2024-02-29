@@ -1,0 +1,1 @@
+Welcome to the Moroccan COVID-19 Tracker, your comprehensive companion for assessing your health status amidst the ongoing pandemic. Developed with precision and accuracy, this app is designed to provide users with quick and reliable information about their COVID-19 risk level based on symptoms and exposure.
