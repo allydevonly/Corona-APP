@@ -2,14 +2,22 @@ import React from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import ImageGallery from './components/protection';
-import Navbar from './components/navbar';
+import MyComponent from './components/info';
+
 
 function App() {
   return (
-    
-    <div className="App">
-    <ImageGallery />
-  </div>
+    <div>
+      <div className="App">
+        <ImageGallery />
+        <MyComponent /> 
+        {
+
+
+
+        }
+      </div>
+    </div>
   );
 }
 
