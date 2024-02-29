@@ -1,0 +1,47 @@
+/* test.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Cairo:slnt,wght@1,200..1000&display=swap');
+
+
+body{
+  background-color: aliceblue;
+  font-family: "Cairo", sans-serif;
+  
+
+}
+
+
+.gallery-container {
+  text-align: center;
+  
+}
+
+.gallery-images {
+  display: flex;
+  justify-content: center;
+  
+  
+}
+
+.gallery-image {
+  width: auto;
+  height: auto;
+  margin: 0 5px;
+  padding: 5%;
+  
+  
+}
+
+.image-description {
+  text-align: center;
+  font-weight: 700;
+  color: #1078AD;
+  padding: 20px;
+
+}
+
+.title{
+  padding: 20px;
+  color: #1078AD;
+  font-weight: bold;
+}
