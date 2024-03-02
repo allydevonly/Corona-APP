@@ -45,3 +45,14 @@ body{
   color: #1078AD;
   font-weight: bold;
 }
+@media screen and (max-width: 768px) {
+  .gallery-images {
+    flex-direction: column; /* Change flex direction to column for phone screens */
+  }
+
+  .gallery-image {
+    width: 50%; /* Set width to 50% to display two images in a line */
+    margin: 10px auto; /* Center images horizontally with margin */
+    padding: 0; /* Remove padding */
+  }
+}

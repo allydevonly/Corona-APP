@@ -1,0 +1,35 @@
+.my-gallery-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 20%;
+  margin-right: 20%; 
+}
+
+.my-image-container {
+  flex: 0 0 50%;
+  padding: 10px;
+  box-sizing: border-box; /* Include padding in width calculation */
+}
+
+.my-image-container img {
+  width: auto;
+  height: auto;
+  padding: 5%;
+}
+
+.gallery-title {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 40px; /* Adjust as needed */
+}
+
+.dscrp{
+  color: black;
+  font-size:x-large;
+}
+
+@media (max-width: 768px) {
+  .my-image-container {
+    flex: 0 0 100%; /* On smaller screens, show one image per line */
+  }
+}
