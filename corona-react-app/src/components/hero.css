@@ -1,0 +1,22 @@
+.h1css{
+  color: black;
+  background-color: #F4CF1B;
+  text-align: center;
+  font-weight: bolder;
+  font-size: x-large;
+  font-family: "Cairo", sans-serif;   
+  
+}
+.pcss{
+  color: #217FA2;
+  background-color: #F4CF1B;
+  text-align: center;
+  font-weight: bolder;
+  font-size: large;
+  font-family: "Cairo", sans-serif;
+  
+}
+.content1{
+    background-color: #F4CF1B ;
+    margin-top: -20px;
+}

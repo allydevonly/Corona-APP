@@ -1,0 +1,67 @@
+.progress-container3 {
+  width: 30%; /* Width of the progress bar container */
+  height: 10px; /* Height of the progress bar */
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  position: relative;
+  margin-top: 40px;
+  margin-left: 530px;
+  margin-bottom: 50px;
+
+}
+
+.custom-progress-bar3 {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.custom-progress3 {
+  width: 100%;
+  height: 100%;
+  background-color: #4b4c4e5f;
+  border-radius: 5px;
+}
+
+.marker3 {
+  width: 20px; /* Width of the markers */
+  height: 20px; /* Height of the markers */
+  background-color: #545454;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.start-marker3 {
+  left: 0;
+}
+
+.mid-marker3 {
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.end-marker3 {
+  right: 0;
+}
+
+.start-marker3::after,
+.mid-marker3::after,
+.end-marker3::after {
+  content: attr(title);
+  display: block;
+  position: absolute;
+  top: calc(100% + 5px); /* Position the title below the marker */
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 12px; /* Adjust font size as needed */
+  color: #333; /* Adjust color as needed */
+  font-family: "Cairo", sans-serif;
+  font-weight: bolder;
+
+}
+
+.end-marker3{
+  background-color:brown;
+}

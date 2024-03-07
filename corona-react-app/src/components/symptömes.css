@@ -1,35 +1,77 @@
 .my-gallery-container {
   display: flex;
   flex-wrap: wrap;
-  margin-left: 20%;
-  margin-right: 20%; 
+  padding-left: 20%;
+  padding-right: 20%;
+  background-color: white;
+margin-bottom: -20px;
 }
-
-.my-image-container {
-  flex: 0 0 50%;
-  padding: 10px;
-  box-sizing: border-box; /* Include padding in width calculation */
-}
-
-.my-image-container img {
-  width: auto;
-  height: auto;
-  padding: 5%;
-}
-
 .gallery-title {
   width: 100%;
   text-align: center;
   margin-bottom: 40px; /* Adjust as needed */
+  color: #1078AD;
 }
 
-.dscrp{
+.my-image-container {
+  display: flex;
+  flex-direction: column; /* Arrange items vertically */
+  align-items: center; /* Center horizontally */
+  justify-content: center; /* Center vertically */
+  flex: 0 0 50%;
+  padding: 40px;
+  box-sizing: border-box; /* Include padding in width calculation */
+}
+
+.my-image-container img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px; /* Add some space between the image and the text */
+}
+
+.dscrp {
   color: black;
-  font-size:x-large;
+  font-size: x-large;
+  text-align: center; 
+  font-weight: bold;
+
 }
 
-@media (max-width: 768px) {
-  .my-image-container {
-    flex: 0 0 100%; /* On smaller screens, show one image per line */
-  }
+.gallery-title {
+  font-family: 'Cairo', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.gallery-title {
+  font-family: 'Cairo', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.container11 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.my-image-container1 {
+  flex: 1;
+  text-align: center;
+  margin: 0 20px;
+}
+
+.my-image-container1 img {
+  max-width: 100%;
+  height: auto;
+}
+
+.bigerimg-p {
+  font-family: 'Cairo', sans-serif;
+  font-size: 18px;
+  text-align: center;
 }

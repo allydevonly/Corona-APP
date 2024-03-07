@@ -1,0 +1,35 @@
+
+.upperbanner{
+
+  background-color: #96C5DC;
+  margin-right: 80px ;
+  margin-left: 80px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 20px;
+  border-radius: 10px;
+
+}
+
+.sepline14{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #F0CE24;
+}
+.infohero1{
+  color: black;
+}
+.unique-button2{
+  cursor: pointer;
+  display: block;
+  margin: 10px auto; /* Center horizontally */
+  padding:2px 100px;
+  font-size: 16px;
+  font-family: "Cairo", sans-serif;
+  border-radius: 5px;
+  border: none; 
+  background-color: #1078AD;
+  color: white;
+  font-weight: 700;
+  font-size: xx-large;
+  text-decoration: none;
+}

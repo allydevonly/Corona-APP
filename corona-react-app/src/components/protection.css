@@ -4,7 +4,7 @@
 
 
 body{
-  background-color: aliceblue;
+  background-color: white;
   font-family: "Cairo", sans-serif;
   
 
@@ -36,9 +36,17 @@ body{
   text-align: center;
   font-weight: 700;
   color: #1078AD;
-  padding: 20px;
 
 }
+.image-description1{
+  text-align: center;
+  font-weight: 700;
+  color: #1078AD;
+  padding: 5px;
+  font-size: medium;
+
+}
+
 
 .title{
   padding: 20px;

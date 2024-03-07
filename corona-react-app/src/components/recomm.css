@@ -1,0 +1,79 @@
+.container1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1078AD;
+}
+
+.container2{
+  background-color: #1078AD;
+  text-align: center;
+  color: #D0E5F0;
+}
+
+.left-content1 {
+  flex: 1;
+  padding-left: 50px;
+  
+}
+
+.blackp{
+  color: black;
+}
+
+.left-content1 p {
+  text-align: left;
+  font-size:x-large;
+  font-weight: 600;
+  color:#FFFFFF;
+}
+
+.right-content1 {
+  flex: 1;
+  margin-bottom:110px ;
+  text-align: center;
+}
+
+.btn1 {
+  padding: 10px 40px;
+  background-color: #F4CF1B;
+  color:#1078AD;
+  border: none;
+  border-radius: 5px;
+  font-size: 25px;
+  font-weight: 800;
+  margin-bottom: 10px;
+  font-family: "Cairo", sans-serif;
+}
+
+
+
+.my-link {
+  display: block;
+  color:white;
+  text-decoration:underline #F4CF1B;
+  font-size: 26px;
+  margin-top: 10px;
+}
+
+.apple{
+  color: #F4CF1B;
+}
+
+@media screen and (max-width: 768px) {
+  .container1 {
+    flex-direction: column; /* Stack items vertically on smaller screens */
+    padding: 20px; /* Add padding for spacing */
+  }
+
+  .left-content1,
+  .right-content1 {
+    padding: 0; /* Remove padding on smaller screens */
+    text-align: center; /* Center text on smaller screens */
+  }
+
+  .left-content1 {
+    padding-left: 0; /* Remove left padding */
+    padding-right: 0; /* Remove right padding */
+  }
+}

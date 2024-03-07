@@ -1,0 +1,62 @@
+.stepper {
+  max-width: 600px;
+  margin: 0 auto;
+  margin-bottom: 120px;
+  
+}
+
+.question {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  font-size: xx-large;
+  color: #787878;
+  text-align: center;
+}
+.options {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.option {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  font-size: x-large;
+}
+
+.option input[type="checkbox"] {
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.button-group {
+  position: relative;
+  
+
+}
+
+.left-button {
+  font-family: "Cairo", sans-serif;
+  position: absolute;
+  left: 0;
+  font-size: x-large;
+  border-radius: 5px;
+  border-style: none;
+  padding: 20px 18px;
+  background-color: #1078AD;
+  color: white;
+  
+}
+
+.right-button {
+  font-family: "Cairo", sans-serif;
+  position: absolute;
+  right: 0;
+  font-size: x-large;
+  border-radius: 5px;
+  border-style: none;
+  padding: 20px 30px;
+  background-color: #1078AD;
+  color: white;
+}

@@ -1,14 +1,14 @@
 import React from 'react';
 import './symptömes.css';
 
-const MyImageGallery = () => {
+const Symptomes4 = () => {
   return (
     <div className="my-gallery-container">
-            <h1 className="gallery-title">Quels sont les symptomes a surveiller ?</h1>
+            <h1 className="gallery-title">Quels sont les symptomes ä surveiller ?</h1>
 
-          
+
       <div className="my-image-container">
-        <img className="my-image-container" src="images\Screenshot_2024-03-02_060541-removebg-preview.png" alt="Image 1" width={250}/>
+        <img className="my-image-container" src="images\Screenshot_2024-03-02_060541-removebg-preview.png" alt="Image 1" />
         <p className='dscrp'>Fiévre</p>
       </div>
       <div className="my-image-container">
@@ -23,9 +23,9 @@ const MyImageGallery = () => {
         <img src="images\Calque -9.png" alt="Image 4" />
         <p className='dscrp'>Toux et maux<br></br>de gorge</p>
       </div>
+    </div>
+          );
+    };
 
-      </div>
-  );
-};
+export default Symptomes4 ;
 
-export default MyImageGallery;

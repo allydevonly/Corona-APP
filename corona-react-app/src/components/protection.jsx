@@ -12,8 +12,8 @@ const ImageGallery = () => {
 
         <div className="gallery-image">
 
-          <img src="..\images\Calque -5 (3).png" alt="Image 1"  style={{ width: '140px', height: '125px' }}/>
-          <h6 className="image-description">Saluez sans serrer la main,<br></br>n'embrassez personne</h6>
+          <img src="..\images\Calque -5 (3).png" alt="Image 1"  style={{ width: '140px', height: '120px' }}/>
+          <h6 className="image-description1">Saluez sans serrer la main,<br></br>n'embrassez personne</h6>
         </div>
 
         <div className="gallery-image">
